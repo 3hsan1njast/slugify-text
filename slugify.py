@@ -13,7 +13,8 @@ def slugify(_input: str):
 
     return removed_space_str
 
-print("HeLLo Iran ServEr! PHP / Laravel ConTeSt 2025!")
-print(slugify("HeLLo Iran ServEr! PHP / Laravel ConTeSt 2025!"))
-print(" Hello #World FROM  @IRan SerVeR!  ")
-print(slugify(" Hello #World FROM  @IRan SerVeR!  "))
+# Testcases:
+input_1 = "  Hello, World! This is PYTHON!@.  "
+input_2 = " Hello #World FROM  @IRan!"
+print(f'Text: "{input_1}" ==> Slug: "{slugify(input_1)}"')
+print(f'Text: "{input_2}" ==> Slug: "{slugify(input_2)}"')
