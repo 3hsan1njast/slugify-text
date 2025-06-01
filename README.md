@@ -4,5 +4,5 @@
 3) replace " " with "-"
 
 ### Example
-- `"  Hello, World! This is PYTHON!@.  "` 👉 `"hello-world-this-is-python" ✅`<br>
+- `"  Hello, World! This is PYTHON!@.  "` 👉 `"hello-world-this-is-python"` ✅<br>
 - `" Hello #World FROM  @IRan!"` 👉 `"hello-world-from-iran"` ✅
