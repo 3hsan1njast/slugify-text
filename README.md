@@ -1,8 +1,22 @@
-### What does this function do?
-1) make the chars, "lowercase"
-2) make sure that there is no punctuation
-3) replace " " with "-"
+# Slugify
+A lightweight Python script to turn text into URL-friendly slugs.
 
-### Example
-- `"  Hello, World! This is PYTHON!@.  "` 👉 `"hello-world-this-is-python"` ✅<br>
-- `" Hello #World FROM  @IRan!"` 👉 `"hello-world-from-iran"` ✅
+## Features
+- **Cleans Text**: Removes punctuation and extra spaces.
+- **Formats Slugs**: Converts to lowercase, replaces spaces with single hyphens.
+
+## Usage
+```python
+slugify("  Hello, World! This is PYTHON!@.  ")
+# Output: "hello-world-this-is-python"
+```
+
+## Examples
+```python
+print(slugify(" Hello #World FROM  @IRan!"))
+# Output: "hello-world-from-iran"
+```
+
+## Notes
+- Handles various punctuation marks.
+- Built with ❤️ by Ehsan.
