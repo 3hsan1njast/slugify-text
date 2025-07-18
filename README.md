@@ -11,12 +11,6 @@ slugify("  Hello, World! This is PYTHON!@.  ")
 # Output: "hello-world-this-is-python"
 ```
 
-## Examples
-```python
-print(slugify(" Hello #World FROM  @IRan!"))
-# Output: "hello-world-from-iran"
-```
-
 ## Notes
 - Handles various punctuation marks.
 - Built with ❤️ by Ehsan.
