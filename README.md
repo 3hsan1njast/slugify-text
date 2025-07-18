@@ -1,4 +1,4 @@
-# Slugify
+# 🔗 Slugify 🔗
 A lightweight Python script to turn text into URL-friendly slugs.
 
 ## Features
